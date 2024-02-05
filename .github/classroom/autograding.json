@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "test_id",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_id",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "test_pi",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest pi",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
